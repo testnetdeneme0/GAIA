@@ -184,13 +184,13 @@ gaiad keys add $WALLET --recover
 ```
 gaiad tx staking create-validator \
   --amount 1000000uatom \
-  --from Rues \
+  --from CüzdanAdınız \
   --commission-max-change-rate "0.01" \
   --commission-max-rate "0.2" \
   --commission-rate "0.07" \
   --min-self-delegation "1" \
   --pubkey  $(gaiad tendermint show-validator) \
-  --moniker RuesValidator \
+  --moniker ValidatörADınız \
   --chain-id GAIA
 ```
 
